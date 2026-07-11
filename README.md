@@ -13,18 +13,21 @@ Ensure you have Python installed on your machine. It is recommended to use a vir
 
 ```bash
 pip install -r requirements.txt
-
-How to Run
+```
+##How to Run
 1. Training
 If you have housing.csv in your data/ folder, run the script. It will detect that no model exists, train a new RandomForestRegressor, and save the trained model and pipeline to the models/ folder:
 
-Bash
+```bash
 python main.py
+```
 2. Inference
 Once the model is saved, you can run the script again. It will automatically load the existing model, process the data in data/input.csv, and save the predictions to data/output.csv:
 
-Bash
+```bash
 python main.py
+```
+
 Key Features
 Automation: The script automatically toggles between training and inference modes based on the presence of the model file.
 
