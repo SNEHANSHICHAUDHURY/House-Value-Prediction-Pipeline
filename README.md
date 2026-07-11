@@ -6,8 +6,8 @@ This project implements a machine learning pipeline to predict median house valu
 
 ## Project Structure
 - `main.py`: The core script that handles data preprocessing, training, and inference.
-- `data/`: Folder containing your datasets (`housing.csv`, `input.csv`).
-- `models/`: Folder where the trained model (`model.pkl`) and pipeline (`pipeline.pkl`) are stored.
+- `Data/`: Folder containing your datasets (`housing.csv`, `input.csv`).
+- `Models/`: Folder where the trained model (`model.pkl`) and pipeline (`pipeline.pkl`) are stored.
 - `requirements.txt`: List of dependencies required to run the project.
 
 
