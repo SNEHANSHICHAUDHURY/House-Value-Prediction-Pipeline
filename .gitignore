@@ -1,8 +1,8 @@
 # Ignore data and results folders
-data/
+Data/
 
 # Ignore models folder
-models/
+Models/
 
 # Ignore system files created by your OS
 .DS_Store
