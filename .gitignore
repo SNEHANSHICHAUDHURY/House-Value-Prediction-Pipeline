@@ -1,0 +1,10 @@
+# Ignore data and results folders
+data/
+
+# Ignore models folder
+models/
+
+# Ignore system files created by your OS
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
