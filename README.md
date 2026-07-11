@@ -37,9 +37,7 @@ python main.py
 
 Key Features
 Automation: The script automatically toggles between training and inference modes based on the presence of the model file.
-
 Preprocessing Pipeline: Uses scikit-learn's Pipeline and ColumnTransformer to handle numerical imputation, scaling, and categorical one-hot encoding efficiently.
-
 Cross-Platform Compatibility: Uses os.path.join for file handling to ensure the code works seamlessly on different operating systems.
 
 
