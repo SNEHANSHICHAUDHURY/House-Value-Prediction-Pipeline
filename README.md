@@ -41,23 +41,23 @@ python main.py
 ```
 
 
-Key Features
-Automation: The script automatically toggles between training and inference modes based on the presence of the model file.
+## Key Features
+**Automation**: The script automatically toggles between training and inference modes based on the presence of the model file.
 
 
-Preprocessing Pipeline: Uses scikit-learn's Pipeline and ColumnTransformer to handle numerical imputation, scaling, and categorical one-hot encoding efficiently.
+**Preprocessing Pipeline**: Uses scikit-learn's Pipeline and ColumnTransformer to handle numerical imputation, scaling, and categorical one-hot encoding efficiently.
 
 
-Cross-Platform Compatibility: Uses os.path.join for file handling to ensure the code works seamlessly on different operating systems.
+**Cross-Platform Compatibility**: Uses os.path.join for file handling to ensure the code works seamlessly on different operating systems.
 
 
 
 
-Security & Version Control
+## Security & Version Control
 This project utilizes a .gitignore file to ensure that sensitive data (data/) and heavy binary files (models/) are kept locally and not uploaded to GitHub, maintaining a clean and secure repository.
 
 
 
 
-Author
+## Author
 Snehanshi Chaudhury
