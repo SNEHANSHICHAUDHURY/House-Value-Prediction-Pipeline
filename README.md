@@ -19,33 +19,43 @@ Ensure you have Python installed on your machine. It is recommended to use a vir
 pip install -r requirements.txt
 ```
 
-##How to Run
+
+## How to Run
+
 1. Training
 If you have housing.csv in your data/ folder, run the script. It will detect that no model exists, train a new RandomForestRegressor, and save the trained model and pipeline to the models/ folder:
+
 
 ```bash
 python main.py
 ```
+
 
 2. Inference
 Once the model is saved, you can run the script again. It will automatically load the existing model, process the data in data/input.csv, and save the predictions to data/output.csv:
 
 
+
 ```bash
 python main.py
 ```
 
+
 Key Features
 Automation: The script automatically toggles between training and inference modes based on the presence of the model file.
 
+
 Preprocessing Pipeline: Uses scikit-learn's Pipeline and ColumnTransformer to handle numerical imputation, scaling, and categorical one-hot encoding efficiently.
+
 
 Cross-Platform Compatibility: Uses os.path.join for file handling to ensure the code works seamlessly on different operating systems.
 
 
 
+
 Security & Version Control
 This project utilizes a .gitignore file to ensure that sensitive data (data/) and heavy binary files (models/) are kept locally and not uploaded to GitHub, maintaining a clean and secure repository.
+
 
 
 
